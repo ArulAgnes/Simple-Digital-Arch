@@ -1,0 +1,27 @@
+# Web-workspace-only safeguards. No Git operations are performed by this app.
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+
+# Generated test evidence stays local unless separately reviewed.
+artifacts/
+test-results/
+playwright-report/
+*.log
+
+# Original research artifacts must never be staged from this companion.
+data/
+input_data/
+output/
+logs/
+backups/
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*_clobber_evidence*/
+*_r1_repair_evidence*/
